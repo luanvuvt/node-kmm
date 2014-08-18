@@ -1,0 +1,25 @@
+{
+	"items": [
+		{
+			"path": "W:/Work/Dc/Projects/Opencart/repos/opencart-modules/modules/kuleraccordion",
+			"distPath": "C:/hello/"
+		},
+		{
+			"path": "W:/Work/Dc/Projects/Opencart/repos/opencart-modules/modules/kuleradvancedhtml",
+			"distPath": "C:/hello/"
+		},
+		{
+			"path": "W:/Work/Dc/Projects/Opencart/repos/opencart-modules/modules/kulerblogmanager",
+			"distPath": "C:/hello/"
+		},
+		{
+			"path": "W:/Work/Dc/Projects/Opencart/repos/opencart-modules/modules/kulerlayerslider",
+			"distPath": "C:/hello/"
+		},
+		{
+			"path": "W:/Work/Dc/Projects/Opencart/repos/opencart-themes-1.5.5.x",
+			"linkFolders": ["acceptus-pro", "skis-pro"],
+			"distPath": "C:/hello/catalog/view/theme"
+		}
+	]
+}
