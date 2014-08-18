@@ -1,3 +1,3 @@
-var kmm = require('./lib/kmm');
+var Kmm = require('./lib/kmm');
 
-kmm('install');
+module.exports = Kmm;

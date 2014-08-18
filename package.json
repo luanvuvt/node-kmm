@@ -1,18 +1,24 @@
 {
-  "name": "kmm",
-  "version": "1.1.1",
-  "main": "index.js",
-  "bin": {
-    "kmm": "./bin/kmm.js"
-  },
-  "devDependencies": {},
-  "author": "luanvuvt",
-  "license": "ISC",
-  "dependencies": {
-    "optimist": "~0.6.1",
-    "mkdirp": "~0.3.5",
-    "q": "^1.0.1",
-    "colors": "^0.6.2",
-    "lodash": "*"
-  }
+	"name": "kmm",
+	"version": "1.1.1",
+	"main": "index.js",
+	"bin": {
+		"kmm": "./bin/kmm.js"
+	},
+	"devDependencies": {},
+	"repository": "luanvuvt/node-kmm",
+	"author": "Luan Vu <luanvuvt@gmail.com>",
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://raw.githubusercontent.com/luanvuvt/node-kmm/master/LICENSE"
+		}
+	],
+	"dependencies": {
+		"mkdirp": "~0.3.5",
+		"q": "^1.0.1",
+		"liftoff": "^0.12.0",
+		"chalk": "^0.5.1",
+		"minimist": "^1.1.0"
+	}
 }
