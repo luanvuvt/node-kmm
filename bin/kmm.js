@@ -15,6 +15,11 @@ cli.launch({
 }, handleArguments);
 
 function handleArguments(env) {
+	if (argv.v || argv.version) {
+		console.log(Kmm.version);
+		process.exit(0);
+	}
+
 	if (!env.configPath) {
 		utils.log(chalk.red('No kmmfile found'));
 		process.exit(1);
